@@ -20,7 +20,7 @@ from openapi import *
 # 라이브러리 다운로드 -> ctrl + alt + s (file -> setting ->project:bot -> python interpreter)
 # 위와 같은 방식으로 설치가 안되는 경우는 아래 terminal 탭 클릭 후 -> pip install pymysql
 from sqlalchemy import create_engine
-import pymysql
+import pymysqlhi
 pymysql.install_as_MySQLdb()
 
 
