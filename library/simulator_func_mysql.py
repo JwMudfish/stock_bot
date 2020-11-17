@@ -114,10 +114,10 @@ class simulator_func_mysql:
             self.simul_start_date = "20190101"
 
             ######### 알고리즘 선택 #############
-            # 매수 리스트 설정 알고리즘 번호
+            # 매수 리스트 설정 알고리즘 번호 - 매수할 때 쓰는 로직!!
             self.db_to_realtime_daily_buy_list_num = 1
 
-            # 매도 리스트 설정 알고리즘 번호
+            # 매도 리스트 설정 알고리즘 번호  - 매도 조건
             self.sell_list_num = 1
             ###################################
 
@@ -126,7 +126,7 @@ class simulator_func_mysql:
             # 키움증권 모의투자의 경우 초기에 모의투자 신청 할 때 설정 한 금액으로 자본금이 설정됨
             self.start_invest_price = 10000000
 
-            # 매수 금액
+            # 매수 금액 (하나 살 때)
             self.invest_unit = 1000000
 
             # 자산 중 최소로 남겨 둘 금액
