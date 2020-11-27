@@ -34,7 +34,7 @@
                     code_name : 종목명
                     rate : 현재 실시간 수익률 (세금, 수수료 반영)
                     purchase_rate : 매수 한 순간 등락율(전일비), 전일에 비해서 몇 프로가 상승했는지를 의미
-                    purchase_price : 매수한 가격
+                    purchase_price : 매수한 가격 (종목 1개당 얼마에 샀는지)
                     present_price : 현재가
                     valuation_price : 평가금액(현재가 X 보유 주식수)
                                         ex. 1주에 100원인 종목을 10개 샀을 때 : 초기 평가금액 1000원

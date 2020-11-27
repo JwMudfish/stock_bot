@@ -357,7 +357,7 @@ class simulator_func_mysql:
 
             # 매수를 하게 되면 all_item_db 테이블에 반영을 한다.
             self.db_to_all_item(date, self.df_realtime_daily_buy_list, j,
-                                code,
+                                code, 
                                 code_name, price,
                                 yes_close)
 
